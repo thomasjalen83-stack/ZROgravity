@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+  }
+  
+  #starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, #050510, #000010 80%);
+    z-index: 0;
+  }
+  
+  #logo {
+    position: absolute;
+    width: 250px; /* adjust to fit your logo */
+    height: auto;
+    z-index: 2;
+    user-select: none;
+    pointer-events: none;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3));
+  }
+  
